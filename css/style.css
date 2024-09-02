@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.back{ 
+    margin-top: 100px;
+    height: 300px;
+    width: 100%;
+    background-image: url(../images/contemporary-house-interior-design-\(2\).jpg );
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;   
+}
+.rr{
+    background-image: url(../images/soft-pastel-hues-room-children\ \(1\).jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative; 
+
+}
+.imggg{
+    width: 50px;
+    height: 80px;
+    border-radius: 50%;
+ }
+ .info-item{
+    position: absolute;
+    top: 50%;
+    left: 0px;
+ }.content{
+    width: 70%;
+    margin: auto;}
+ .box{
+ box-shadow:  1px 0px 20px 15px rgb(145, 176, 178)  ; 
+ margin: auto;
+ }
+ .skww{
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0%, 88% 100%, 0% 100%);
+ }
+ @media (max-width : 567px){
+    .skww {
+       width: 100%;
+       height: 100%;
+     
+       background-size: cover;
+       clip-path: none;
+    }
+ } 
+ .rop{
+    width: 130px;
+    height:20px ;
+    margin-top: 10px;
+    accent-color: #dc3545;
+ }
+ .oovve{
+    width: 400px;
+    height: 300px;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 20% 100%);
+ }
+ 
+ @media (max-width : 567px){
+    .oovve {
+       width: 100%;
+       height: 100%;
+     
+       background-size: cover;
+       clip-path: none;
+    }
+ } 
+ 
+ .ittmm{
+    box-shadow:  1px 0px 10px 8px rgb(145, 176, 178)  ; 
+ }
+ .ddddrr{
+    /* width: 59%; */
+    margin: auto;
+ }
+ .ittmm{
+    width: 200px;
+    border-radius: 5px;
+ }
+ .infx{
+    width: 70%;
+    margin: auto;
+    /* margin-top: 20px; */
+ }
+ 
+ .pr{
+    width: 90%;
+    height: 1px;
+    background-color: white;
+ }
+ .bacimg img{
+ 
+    
+    border-radius: 50%;
+    display: inline;
+ }
+ 
+ .listafoot{
+    list-style-type: none;
+    margin-top: 15px;
+ }
+ .listafoot li{
+    margin: 10px 0 10px 0;
+    color: white;
+ }
+ .line{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+ }
+ .scaler:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+ }
+ .sccx:hover{
+    transform: scale(0.8);
+    transition-duration: 1s;
+ }

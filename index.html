@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-3">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> <strong> Bohemian furniture style </strong></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li> 
+
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">About</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-secondary" type="submit">Search</button>
+            </form>
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-secondary m-1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Buy Now
+</button>
+
+<!-- Modal --> 
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">New Modales</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+      </nav> <!-- //////////////////////////////////////////////////////////////////////////////////////////////// -->
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/pexels-curtis-adams-1694007-3773582-(2).jpg" class="d-block w-100" style="height: 90vh;" alt="none">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/interior-decoration-inspired-by-mexican-folklore (1).jpg" class="d-block w-100" style="height: 90vh;" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/interior-space-decorated-boho-style (1).jpg" class="d-block w-100" style="height: 90vh;" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> <!-- //////////////////////////////////////////////////////////////////////////////////////////////// -->
+      <div class="container-fluid bg-warning-subtle  p-5">
+       <h2>Hello custemer</h2>
+       <p >Bohemian design style originated in the Bohemian region of the Czech Republic and represents freedom, self-expression, and a rejection of societal convention. It evolved from artistic movements such as the Arts and Crafts and Art Nouveau, along with the hippie culture of the 1960s and 1970s</p>
+       <button type="button" class="btn btn-danger">continue</button>
+      </div><br><!-- ///////////////////////////////////////////////////////////////////////////////////////////// -->
+      <div class="container-fluid bg-secondary border border-black rounded-pill p-5">
+        <h2 style="text-align: center; color: white; font-size: 60px;">Hello custemer</h2>
+       </div> <br><!-- //////////////////////////////////////////////////////////////////////////////////////////////// -->
+       <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              <strong style="font-size: 30px;">Bohemianism</strong>
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Bohemianism is a social and cultural movement that has, at its core, a way of life away from society's conventional norms and expectations. The term originates from the French bohème and spread to the English-speaking world. It was used to describe mid-19th-century non-traditional lifestyles, especially of artists, writers, journalists, musicians, and actors in major European cities.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              <strong style="font-size: 30px;">European bohemianism</strong>
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">In England, bohemian in this sense initially was popularised in William Makepeace Thackeray's 1848 novel Vanity Fair. Public perceptions of the alternative lifestyles supposedly led by artists were further molded by George du Maurier's romanticized best-selling novel of Bohemian culture Trilby (1894). The novel outlines the fortunes of three expatriate English artists, their Irish model, and two colourful Central European musicians, in the artist quarter of Paris.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              <strong style="font-size: 30px;">American bohemianism</strong>
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">San Francisco journalist Bret Harte first wrote as "The Bohemian" in The Golden Era in 1861, with this persona taking part in many satirical doings, the lot published in his book Bohemian Papers in 1867. Harte wrote, "Bohemia has never been located geographically, but any clear day when the sun is going down, if you mount Telegraph Hill, you shall see its pleasant valleys and cloud-capped hills glittering in the West ..</div>
+          </div>
+        </div>
+      </div>
+      <!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
+      <div class="container-fluid bg-warning-subtle border border-black rounded-corners p-3">
+        <h2 style="text-align: center;">translate frome arabic to German</h2>
+       </div><!-- //////////////////////////////////////////////////////////////////////////////////////////////// -->
+       <div class="container-fluid bg-warning-subtle border border-black rounded-corners p-5">
+        <h2 >write and translate <span style="color: blueviolet">press Here</span></h2>
+        <button type="button" class="btn btn-secondary " data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Tooltip on bottom">
+         copy
+        </button> <hr>
+        <div class="container-fluid bg-white border border-black rounded p-5">
+        <p class="text-start"></p>
+        <p class="text-center"></p>
+        <p class="text-end"></p>
+        <p class="text-sm-end"></p>
+        <p class="text-md-end"></p>
+         <p class="text-lg-end"></p>
+         </div>
+       </div> <!-- /////////////////////////////////////////////////////////////////////////////////////////////// -->
+       <div class="container-fluid bg-warning-subtle border border-black rounded-corners p-3">
+        <h2 style="text-align: center;">translate from arabic to english</h2>
+       </div> <!-- /////////////////////////////////////////////////////////////////////////////////// -->
+       <div class="container-fluid bg-warning-subtle border border-black rounded-corners p-5">
+        <h2 >write and translate <span style="color: blueviolet">press Here</span></h2>
+        <button type="button" class="btn btn-secondary " data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Tooltip on bottom">
+         copy
+        </button> <hr>
+        <div class="container-fluid bg-white border border-black rounded p-5">
+        <p class="text-start"></p>
+        <p class="text-center"></p>
+        <p class="text-end"></p>
+        <p class="text-sm-end"></p>
+        <p class="text-md-end"></p>
+         <p class="text-lg-end"></p>
+       </div>
+       </div> <!-- ///////////////////////////////////////////////////////////////////////////// -->
+       <div class="container-fluid bg-warning-subtle border border-black rounded-corners p-3">
+        <h2 style="text-align: center;">translate frome arabic to French</h2>
+       </div> <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
+       <div class="container-fluid bg-warning-subtle border border-black rounded-corners p-5">
+        <h2 >write and translate <span style="color: blueviolet">press Here</span></h2>
+        <button type="button" class="btn btn-secondary " data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Tooltip on bottom">
+         copy
+        </button> <hr>
+        <div class="container-fluid bg-white border border-black rounded p-5">
+        <p class="text-start"></p>
+        <p class="text-center"></p>
+        <p class="text-end"></p>
+        <p class="text-sm-end"></p>
+        <p class="text-md-end"></p>
+         <p class="text-lg-end"></p>
+       </div>
+       </div>
+       <div class="back"></div><!-- //////////////////////////////////////////////////////////////////////////// -->
+       <div class="container text-center  mt-3">
+        <div class="row ">
+  
+           <div class="col-12 col-sm-12 col-m-6 col-lg-4 my-3">
+            <div class="card alll " style="width: 23rem; margin: auto;">
+              <img src="images/bg-3.jpg" class="card-img-top " style="height: 300px;" alt="...">
+              <div class="card-body">
+            <div class="cont d-flex justify-content-between">
+              <h5 class="card-title d-inline text-dark text-capitalize">Bedroom</h5>
+              <a href="#" class="btn btn-secondary text-warning">know more</a>
+            </div>
+                 <p class="card-text text-secondary"> in our store</p>
+            
+              </div>
+           </div>
+        </div>
+        <div class="col-12 col-sm-12 col-m-6 col-lg-4 my-3">
+           <div class="card alll " style="width: 23rem;margin: auto;">
+              <img src="images/beautiful-summer-modern-home-interior-design .jpg" class="card-img-top " style="height: 300px;" alt="...">
+              <div class="card-body">
+            <div class="cont d-flex justify-content-between">
+              <h5 class="card-title d-inline text-dark text-capitalize">External living roomt</h5>
+              <a href="#" class="btn btn-secondary text-warning">know more</a>
+            </div>
+                 <p class="card-text text-secondary">on the website</p>
+            
+              </div>
+           </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-m-6 col-lg-4 my-3">
+           <div class="card alll " style="width: 23rem; margin: auto;">
+              <img src="images/Best Boho Living Room Decor Ideas.jfif" class="card-img-top " style="height: 300px;" alt="...">
+              <div class="card-body">
+            <div class="cont d-flex justify-content-between">
+              <h5 class="card-title d-inline text-dark text-capitalize">Living roomt</h5>
+              <a href="#" class="btn btn-secondary text-warning">know more</a>
+            </div>
+                 <p class="card-text text-secondary">in store</p>
+            
+              </div>
+           </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-m-6 col-lg-4 my-3">
+           <div class="card alll " style="width: 23rem; margin: auto;">
+              <img src="images/back.jpg" class="card-img-top " style="height: 300px;" alt="...">
+              <div class="card-body">
+            <div class="cont d-flex justify-content-between">
+              <h5 class="card-title d-inline text-dark text-capitalize">Living room</h5>
+              <a href="#" class="btn btn-secondary text-warning">know More</a>
+            </div>
+                 <p class="card-text text-secondary" >in our store</p>
+            
+              </div>
+           </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-m-6 col-lg-4 my-3">
+           <div class="card alll " style="width: 23rem; margin: auto;">
+              <img src="images/bedroom.jfif" class="card-img-top " style="height: 300px;" alt="...">
+              <div class="card-body ">
+            <div class="cont d-flex justify-content-between">
+              <h5 class="card-title d-inline text-dark text-capitalize"> Bedroom</h5>
+              <a href="#" class="btn btn-secondary text-warning">know more</a>
+            </div>
+                 <p class="card-text text-secondary">in cairo</p>
+            
+              </div>
+           </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-m-6 col-lg-4 my-3">
+           <div class="card alll " style="width: 23rem; margin: auto;">
+              <img src="images/livingroom.jfif" class="card-img-top " style="height: 300px;" alt="...">
+              <div class="card-body ">
+            <div class="cont d-flex justify-content-between">
+              <h5 class="card-title d-inline text-dark text-capitalize">Living room</h5> 
+              <a href="#" class="btn btn-secondary text-warning">know more</a>
+            </div>
+                 <p class="card-text text-secondary">on the website</p>
+            
+              </div>
+           </div>
+        </div>
+
+    <div class="ddd flex-wrap   d-flex justify-content-between">
+     <div class="col-12 col-sm-12 col-m-6 col-lg-7   my-3">
+        <div class="card alll" style="width: 23rem; margin: auto;">
+           <img src="images/35 Boho Glam Living Room Ideas for a Chic and Cozy Space.jfif" class="card-img-top " style="height: 300px;" alt="...">
+           <div class="card-body ">
+         <div class="cont d-flex justify-content-between">
+           <h5 class="card-title d-inline text-dark text-capitalize">Living room</h5>
+           <a href="#" class="btn btn-secondary text-warning">know more</a>
+         </div>
+              <p class="card-text text-secondary">in our srote </p>
+       
+           </div>
+        </div>
+     </div>
+
+
+     <div class="col-12 col-sm-12 col-m-6 col-lg-5 my-3">
+        <div class="card alll" style="width: 23rem;">
+           <img src="images/12 Inspiring Boho Living Room Ideas That Are Full of Design Inspo.jfif" class="card-img-top " style="height: 300px;" alt="...">
+           <div class="card-body ">
+         <div class="cont d-flex justify-content-between">
+           <h5 class="card-title d-inline fs-6 text-dark">2 Rooms</h5>
+           <a href="#" class="btn btn-secondary text-warning">know more</a>
+         </div>
+              <p class="card-text text-secondary">in new cairo</p>
+         
+           </div>
+        </div>
+     </div>
+    </div>
+
+     </div>
+  </div> <!-- ///////////////////////////////////////////////////////////// -->
+
+  <div class="back rr" style="width: 100%; height: 22rem;"></div>
+  <!-- //////////////////////////////////////////////////////// -->
+  <hr>
+  <div class="container-fluid rr fs-2 text-center bg-secondary text-light text-uppercase py-4">
+        WELCOME
+  </div><!-- //////////////////////////////////////////////////////////////////// -->
+  <hr class="my-5">
+  <div class="container-fluid bg-tertiary w-100  p-3 mt-3  bg-body-tertiary rounded">
+    <h1 class="text-center br-50 hg">NEW 2026 </h1>
+  </div>
+  
+  <div class=" d-flex  container m-auto  mt-3 bg-body-tertiary row  col-sm-12 ">
+  <div class="col-xl-4  col-sm-12 ">
+  <div class="card dd " >
+    <img class="card-img-top " src="images/Lily Rattan Peacock Chair.jfif" height="400px" alt="Card image">
+    <div class="card-img-overlay bg-dark opacity-75 ">
+      <h4 class="card-title text-light">New Moodels</h4>
+      <a href="#" class="btn btn-secondary">book now</a>
+      <br>
+      <img src="images/bg-3.jpg" width="120px" class="kk rounded-circle mt-5" alt="Cinque Terre">
+    </div>
+  </div>
+  </div>
+  <div class="col-xl-4 col-sm-12 ">
+  <div class="  card dd">
+    <img class="card-img-top " src="images/Crafting Comfort_ Scandinavian Simplicity Living Room.jfif" height="400px" alt="Card image">
+    <div class="card-img-overlay bg-dark opacity-75 ">
+      <h4 class="card-title text-light">New Moodels</h4>
+      <a href="#" class="btn btn-secondary">book now</a>
+      <br>
+      <img src="images/bg-1.jfif" width="120px" class="kk rounded-circle mt-5" alt="Cinque Terre">
+      <!-- <img src="images/back.jpg" width="120px" class="kk rounded-circle mt-5" alt="Cinque Terre"> -->
+    </div>
+  </div>
+  </div>
+  <div class="col-xl-4 col-sm-12 ">
+  <div class="  card dd">
+    <img class="card-img-top " src="images/room decoration ideas.jfif" height="400px"  alt="Card image">
+    <div class="card-img-overlay bg-dark opacity-75 ">
+      <h4 class="card-title text-light">New Moodels</h4>
+      <a href="#" class="btn btn-secondary">See Profile</a>
+      <br>
+      <img src="images/bg-1.jfif" width="120px" class="kk rounded-circle mt-5" alt="Cinque Terre">
+      <!-- <img src="images/Best Boho Living Room Decor Ideas.jfif" width="120px" class="kk rounded-circle mt-5" alt="Cinque Terre"> -->
+    </div>
+  </div>
+</div>
+</div>
+<div class="col-sm-12 container-fluid bg-success-subtle diff">
+<div class="container-fluid h-100 qwe mt-4">
+  
+</div>
+</div>
+<hr>
+<div class="container pb-5  " >
+           <h3 class="text-center text-dark fs-1 ">New Modales</h3> 
+
+  <div class="card box  col-12 col-sm-12 col-m- 8col-lg-12 my-5 "   > 
+        <div class="row g-0 d-flex flex-wrap">
+
+
+                <div class=" nnn col-12 col-sm-12 col-md-4 col-lg-3" >  
+                        <img  src="images/room decoration ideas.jfif"  class=" skww scaler  img-fluid rounded-start" alt=""> 
+               </div>
+    
+
+                <div class="card-body col-12 col-sm-12 col-md-7 col-lg-7 "> 
+                       <h5 class="card-title text-dark text-capitalize fs-3">podacast title </h5> 
+                       <div class="aa"> <time datetime="2020-05-25 12:00:00"> 
+                             <i class="fas fa-calendar-alt text-danger mr-2"></i> Mon, May 25th 2020</time>
+                       </div>
+                           <progress max="2" value="1" class="rop "></progress>
+        
+                       <p class="card-text mt-1 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem dicta nam, maiores obcaecati ad cupiditate at vero similique voluptate adipisci harum omnis, delectus minus quidem .</p>
+                       <div class="row mt-5"> 
+                        <div class="div1 ms-3 col-11 col-sm-11 col-md-4 col-lg-3 d-inline btn btn-secondary text-light py-2"><i class="fa-solid fa-pencil"></i> podacast</div> 
+                       
+                       <div class="div1 ms-3 col-11 col-sm-11 col-md-4 col-lg-3 btn btn-dark text-light d-inline py-2"><i class="fa-solid fs-6 fa-caret-right"></i> play Episode</div>
+                       <div class="div1 ms-3 col-11 col-sm-11 col-md-4 col-lg-3 d-inline btn btn-secondary text-light py-2"><i class="fa-solid fa-clock"></i> mins</div> 
+                  </div> 
+
+                 </div> 
+        </div>
+   </div>
+
+</div> <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
+
+   
+
+<div class="container pb-5 ">
+  
+  
+<div class="card  box col-12 col-sm-12 col-md-8 col-lg-12 my-5 "   > 
+  <div class="row g-0 d-flex flex-wrap-reverse ">
+          <div class="card-body col-12 col-sm-12 col-md-7 col-lg-7 "> 
+                 <h5 class="card-title text-warning-subtle text-capitalize fs-3">podacast title </h5> 
+                 <div class="aa"> <time datetime="2020-05-25 12:00:00"> 
+                       <i class="fas fa-calendar-alt text-black mr-2"></i> Mon, May 25th 2020</time>
+                 </div>
+                     <progress max="2" value="1" class="rop "></progress>
+  
+                 <p class="card-text mt-1 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem dicta nam, maiores obcaecati ad cupiditate at vero similique voluptate adipisci harum omnis, delectus minus quidem .</p>
+                 <div class="row mt-5"> 
+                  <div class="div1 ms-3 col-11 col-sm-11 col-md-4 col-lg-3 d-inline btn btn-secondary text-light py-2"><i class="fa-solid fa-pencil"></i> podacast</div> 
+                 
+                 <div class="div1 ms-3 col-11 col-sm-11 col-md-4 col-lg-3 btn btn-dark text-light d-inline py-2"><i class="fa-solid fs-6 fa-caret-right"></i> play Episode</div>
+                 <div class="div1 ms-3 col-11 col-sm-11 col-md-4 col-lg-3 d-inline btn btn-secondary text-light py-2"><i class="fa-solid fa-clock"></i> mins</div> 
+            </div> 
+           </div> 
+
+
+           
+          <div class=" nnn col-12 col-sm-12 col-md-5 col-lg-3" >  
+            <img  src="images/12 Inspiring Boho Living Room Ideas That Are Full of Design Inspo.jfif"  class=" oovve scaler img-fluid rounded-start" alt=""> 
+         </div>
+  </div>
+</div>
+</div>
+<div class="container pb-5" >
+
+
+  <div class="card box  col-12 col-sm-12 col-md-9 col-lg-12  my-5"   > 
+  <div class="row g-0 d-flex flex-wrap">
+  
+  
+         <div class=" nnn col-12 col-sm-12 col-md-5 col-lg-3" >  
+                 <img  src="images/beautiful-summer-modern-home-interior-design .jpg"  class=" skww scaler img-fluid rounded-start" alt=""> 
+        </div>
+  
+  
+         <div class="card-body col-12 col-sm-12 col-md-7 col-lg-7 "> 
+                <h5 class="card-title text-info text-capitalize fs-3">podacast title </h5> 
+                <div class="aa"> <time datetime="2020-05-25 12:00:00"> 
+                      <i class="fas fa-calendar-alt text-danger mr-2"></i> Mon, May 25th 2020</time>
+                </div>
+                    <progress max="2" value="1" class="rop "></progress>
+  
+                <p class="card-text mt-1 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem dicta nam, maiores obcaecati ad cupiditate at vero similique voluptate adipisci harum omnis, delectus minus quidem .</p>
+                <div class="row mt-5"> 
+                  <div class="div1 ms-3 col-11 col-sm-11 col-md-4 col-lg-3 d-inline btn btn-secondary text-light py-2"><i class="fa-solid fa-pencil"></i> podacast</div> 
+                 
+                 <div class="div1 ms-3 col-11 col-sm-11 col-md-4 col-lg-3 btn btn-dark text-light d-inline py-2"><i class="fa-solid fs-6 fa-caret-right"></i> play Episode</div>
+                 <div class="div1 ms-3 col-11 col-sm-11 col-md-4 col-lg-3 d-inline btn btn-secondary text-light py-2"><i class="fa-solid fa-clock"></i> mins</div> 
+            </div> 
+          </div> 
+  </div>
+  </div>
+  
+  </div> 
+  
+<div class="container pb-5 ">
+
+
+<div class="card  box col-12 col-sm-12 col-md-8 col-lg-12 my-5 "   > 
+<div class="row g-0 d-flex flex-wrap-reverse ">
+    <div class="card-body col-12 col-sm-12 col-md-7 col-lg-7 "> 
+           <h5 class="card-title text-warning-subtle text-capitalize fs-3">podacast title </h5> 
+           <div class="aa"> <time datetime="2020-05-25 12:00:00"> 
+                 <i class="fas fa-calendar-alt text-black mr-2"></i> Mon, May 25th 2020</time>
+           </div>
+               <progress max="2" value="1" class="rop "></progress>
+
+           <p class="card-text mt-1 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem dicta nam, maiores obcaecati ad cupiditate at vero similique voluptate adipisci harum omnis, delectus minus quidem .</p>
+           <div class="row mt-5"> 
+            <div class="div1 ms-3 col-11 col-sm-11 col-md-4 col-lg-3 d-inline btn btn-secondary text-light py-2"><i class="fa-solid fa-pencil"></i> podacast</div> 
+           
+           <div class="div1 ms-3 col-11 col-sm-11 col-md-4 col-lg-3 btn btn-dark text-light d-inline py-2"><i class="fa-solid fs-6 fa-caret-right"></i> play Episode</div>
+           <div class="div1 ms-3 col-11 col-sm-11 col-md-4 col-lg-3 d-inline btn btn-secondary text-light py-2"><i class="fa-solid fa-clock"></i> mins</div> 
+      </div> 
+     </div> 
+
+
+     
+    <div class=" nnn col-12 col-sm-12 col-md-5 col-lg-3" >  
+      <img  src="images/12 Inspiring Boho Living Room Ideas That Are Full of Design Inspo.jfif"  class=" oovve scaler img-fluid rounded-start" alt=""> 
+   </div>
+</div>
+</div>
+</div> <!-- ////////////////////////////////////////////////////////////// -->
+
+<div class=" ddddrr container mb-5 col-6 col-sm-6 col-md-5 col-lg-12">
+    <div class="  flex-wrap d-flex justify-content-between col-12 col-sm-12 col-md-6 col-lg-12 ">
+      <div class=" text-center my-2 col-4 col-sm-4  col-md-6 col-lg-2 bg-warning-subtle ittmm">
+         <h4 class="my-2 fs-4 text-capitalize text-dark">subcripe now</h4>
+     <img class="my-2" src="images/twiter.jpeg" width="80px" height="50px">
+         <p class="my-2 fs-5 text-danger ">go to link</p>
+      </div>
+      <div class="text-center my-2 col-12 col-sm-12 col-md-6 col-lg-2 bg-warning-subtle ittmm">
+        <h4 class="my-2 fs-4 text-capitalize text-dark" > follow</h4>
+         <img src="images/instgram.jpeg" width="80px" class="my-2" height="50px">
+        <p class="my-2 fs-5 text-danger">go to link</p>
+     </div>
+     <div class="text-center my-2 col-12 col-sm-12 col-md-6 col-lg-2 bg-warning-subtle ittmm">
+      <h4 class="my-2 fs-4 text-capitalize text-dark">like the page</h4>
+      <img src="images/linkedin.jpeg" class="my-2" width="70px" height="50px"> 
+      <p class="my-2 fs-5 text-danger">go to link</p>
+    </div>
+    <div class="text-center my-2 col-12 col-sm-12 col-md-6 col-lg-2  bg-warning-subtle ittmm">
+    <h4 class="my-2 fs-4 text-capitalize text-dark">watch vedios</h4>
+   <img src="images/whatsapp.jpeg" class="my-2" width="70px" height="50px">
+    <p class="my-2 fs-5 text-danger">go to link</p>
+   </div>
+   </div>
+</div> <!-- //////////////////////////////////////////////////////////////////////////////////// -->
+  
+<div class="container-fluid text-center bg-secondary col-12 col-sm-6 col-md-6 col-lg-12">
+ <div class=" pt-4">
+  <div class="d-flex justify-content-between flex-wrap">
+
+
+    <div class="diiiv1  col-12 col-sm-12 col-md-6 col-lg-4">
+        <div class="pr"></div>
+      
+        <div class="imginfo my-2">
+          <div class="bacimg d-inline"> <img src="images/bg-3.jpg" width="70px" height="70px"></div>
+          <div class="d-inline ms-2 text-light">News</div>
+        </div>
+        <div class="pr"></div>
+        
+        <ul class="listafoot">
+            <li>tel: 000-000-000</li>
+             <li>address: egypt</li>
+             <li>fax: 000-000-000</li>
+        </ul>
+    </div>
+
+
+    <div class="diiiv1  col-12 col-sm-12 col-md-6 col-lg-4">
+      <div class="pr"></div>
+    
+      <div class="imginfo my-2">
+        <div class="bacimg d-inline "> <img class="" src="images/bg-1.jfif" width="70px" height="70px"></div>
+        <div class="d-inline ms-2 text-light">New style</div>
+      </div>
+      <div class="pr"></div>
+      
+      <ul class="listafoot ">
+          <li class="text-light">tel: 000-000-000</li>
+           <li class="text-light">address: egypt</li>
+           <li class="text-light">fax: 000-000-000</li>
+      </ul>
+  </div>
+
+
+
+  <div class="diiiv1  col-12 col-sm-12 col-md-6 col-lg-4">
+    <div class="pr"></div>
+  
+    <div class="imginfo my-2">
+      <div class="bacimg d-inline"> <img src="images/bg.jfif" width="70px" height="70px"></div>
+      <div class="d-inline ms-2 text-light">New style</div>
+    </div>
+    <div class="pr"></div>
+    
+    <ul class="listafoot">
+        <li>tel: 000-000-000</li>
+         <li>address: egypt</li>
+         <li>fax: 000-000-000</li>
+    </ul>
+</div>
+
+
+
+
+  </div>
+ 
+  
+  
+
+ </div>
+
+
+</div>
+
+<div class="container-fluid bg-secondary">
+<div class="line"></div>
+<div class="cont my-3 text-light fs-4 text-center">copeyright &copy; 2020 bohemianism style</div>
+<div class="line my-2"></div>
+<div class="line m-"></div>
+</div>
+ 
+     
+  
+    
+
+    <script src="./js/bootstrap.min.js">
+     
+    </script>
+</body>
+</html>
